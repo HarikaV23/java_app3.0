@@ -1,4 +1,4 @@
-@Library('my-shared-library') _
+@Library('jenkins_shared_lib') _
 
 pipeline{
 
@@ -25,7 +25,7 @@ pipeline{
             steps{
             gitCheckout(
                 branch: "main",
-                url: "https://github.com/DEVOPS-WITH-WEB-DEV/Java_App_Session2.git"
+                url: "https://github.com/HarikaV23/java_app3.0.git"
             )
             }
         }
